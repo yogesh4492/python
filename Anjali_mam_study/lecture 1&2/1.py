@@ -36,5 +36,3 @@ print("Division of",num1,"and",num2,"= ",num1/num2)
 num1=int(input("Enter Num1= "))
 num2=int(input("Enter Num2= "))
 print("Modulus of",num1,"and",num2,"= ",num1%num2)
-
-jjj
