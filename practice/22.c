@@ -1,3 +1,4 @@
+//check the length of string 
 #include<stdio.h>
 #include<string.h>
 int len(char str[]){

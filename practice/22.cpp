@@ -1,3 +1,5 @@
+//check the length of string 
+
 #include<iostream>
 #include<string>
 using namespace std;
