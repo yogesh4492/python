@@ -25,8 +25,5 @@ int main(){
 	printf("\nYour friend name in reversed order= ");
 	reverse(name1);
 
-	
-
-
 	return 0;
 }
