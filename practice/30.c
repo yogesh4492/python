@@ -1,3 +1,4 @@
+//using if else and recursion check prime number
 #include<stdio.h>
 int prime(int num,int divisor){
     if(num<=1){

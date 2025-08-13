@@ -1,3 +1,4 @@
+//factorial of number
 #include<stdio.h>
 int main(){
     int i,fact=1,num;

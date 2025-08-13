@@ -1,3 +1,4 @@
+//print left tringle
 #include<stdio.h>
 int main(){
     int row,i,j;

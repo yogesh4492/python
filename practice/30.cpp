@@ -1,3 +1,4 @@
+//using if else and recursion check prime number
 #include<iostream>
 using namespace std;
 int prime(int num,int divisor){
