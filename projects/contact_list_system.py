@@ -20,7 +20,7 @@ def add_contact():
     email = input("Enter Email: ")
     contacts[name] = {"phone": phone, "email": email}
     save_contacts()
-    print(f"✅ Contact '{name}' added successfully!")
+    print(f" Contact '{name}' added successfully!")
 
 def view_contacts():
     if not contacts:
