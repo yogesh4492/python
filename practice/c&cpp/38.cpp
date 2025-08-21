@@ -19,7 +19,7 @@ int main(){
         for(k=spc;k>=1;k--){
             printf(" ");
         }
-        for(j=5;j>=i;j--){
+        for(j=row;j>=i;j--){
             printf("* ");
         }
         printf("\n");
