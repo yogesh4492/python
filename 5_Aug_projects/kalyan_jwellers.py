@@ -76,8 +76,20 @@ print(f"total_gold_amount= {total_gold_amount}")
 print()
 print("--------------------------------------")
 print()
-discount=0.25
+ 
+making_charge=845
+total_m_c=making_charge*product_weight
+print(f"total_Making_charge= {total_m_c}")
+print()
+print("-------------------------------------")
+print()
+total_Amount=total_gold_amount+total_m_c
+print(f"total amount= {total_Amount}")
+print()
 
+print("--------------------------------------")
+
+discount=0.25
 if gender=='m' or gender=='M':
     if age>=65:
         if total_gold_amount>=21000 and total_gold_amount<=31000:
@@ -108,17 +120,8 @@ elif gender=='f' or gender=='F':
             discount=total_gold_amount*0.25
         elif total_gold_amount>51000:
             discount=total_gold_amount*0.30
-       
-making_charge=845
-total_m_c=making_charge*product_weight
-print(f"total_Making_charge= {total_m_c}")
-print()
-print("-------------------------------------")
-print()
-total_Amount=total_gold_amount+total_m_c
-print(f"total amount= {total_Amount}")
-print()
-print("--------------------------------------")
+
+
 print()
 print(f"total Discount= {discount}")
 print()
