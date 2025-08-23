@@ -6,7 +6,8 @@ int main(){
     cin>>row;
     int spc=row-1;
     for(i=1;i<=row;i++){
-        for(k=1;k<=spc;k++){
+        for ( k = 1; k<= spc; k++)
+        {
             cout<<" ";
         }
         for(j=1;j<=i;j++){
@@ -14,18 +15,18 @@ int main(){
         }
         cout<<endl;
         spc--;
+        
     }
-     spc=1;
-    for(i=row;i>=1;i--){
+    spc=1;
+    for(i=1;i<row;i++){
         for(k=1;k<=spc;k++){
             cout<<" ";
         }
-        for(j=1;j<i;j++){
+        for(j=row;j>i;j--){
             cout<<"* ";
         }
         cout<<endl;
         spc++;
     }
     return 0;
-
 }
