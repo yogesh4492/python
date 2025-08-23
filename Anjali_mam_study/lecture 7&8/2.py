@@ -80,7 +80,7 @@ while True:
                     print("Hint: To Low")
                 else:
                     print("You win")
-                    print("--------Level 3 Completed-----------")
+                    print("--------Level 4 Completed-----------")
                     print()
                     break
     elif choice==5:
@@ -88,6 +88,7 @@ while True:
         computer=random.randint(1,50)
         limit=5
         for i in range(1,limit+1):
+            print(f"Current Chance= {i}/{limit}")
             user=int(input("Enter number= "))
             if user>50 or user<=0:
                 print("invalid Range please guess in range to win")
@@ -105,6 +106,7 @@ while True:
         computer=random.randint(1,50)
         limit=3
         for i in range(1,limit+1):
+            print(f"Current Chance= {i}/{limit}")
             user=int(input("Enter Number= "))
             if user>50 or user<=0:
                 print("invalid range input")
