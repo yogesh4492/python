@@ -1,4 +1,4 @@
-#level 1=1,100 ,level 2=1,100 7 trys level =3 1,50 5 try
+#level 1=1,100 , level 2=1,100 7 trys level =3 1,50 5 try
 import random
 # choice=0
 # while choice!=4:
