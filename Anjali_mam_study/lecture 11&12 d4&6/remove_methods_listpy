@@ -1,0 +1,12 @@
+l1=["python ","java","c","da","ds","node"]
+print(l1.remove("java"))
+print(l1)
+
+print(l1.pop())
+print(l1)
+
+print(l1.pop(0))
+print(l1)
+
+print(l1.clear())
+print(l1)
